@@ -28,7 +28,9 @@ ggplot(summarybyfakultas[summarybyfakultas$fakultas %in% c("ICT", "Ilmu Komunika
 ```
 
 ## 🍦🍧🍪 Result 🍪🍧🍦
-![image](https://github.com/diantyapitaloka/College-Filtering/assets/147487436/29851a0d-f5e8-4d94-8c3d-28f45ccbf9cd)
+
+![image](https://github.com/diantyapitaloka/College-Filtering/assets/147487436/e786be20-6336-4864-9c89-525d39c97a5b)
+
 
 
 ## 🍦🍧🍪 Copyright 🍪🍧🍦
