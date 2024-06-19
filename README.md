@@ -1,5 +1,6 @@
 ## 🍦🍧🍪 College-Filtering 🍪🍧🍦
 - Pengerjaan filtering di data frame dapat dilakukan dengan menambahkan operator %in% dengan input berupa vector.
+- vector terdiri dari beberapa aliansi.
 
 ## 🍦🍧🍪 Code 🍪🍧🍦
 - Grafiknya sama dengan subbab "Tren Jumlah Mahasiswa dari Tahun ke Tahun" tapi sudah dengan filter dua fakultas, yaitu "ICT" dan "Ilmu Komunikasi".
