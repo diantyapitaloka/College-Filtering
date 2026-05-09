@@ -2,6 +2,7 @@
 - Filtering in a data frame is efficiently handled by using the %in% operator for matching. This operator allows you to check if values in a column exist within a specific input vector.
 - The input vector serves as a collection of target values you wish to extract. It typically consists of several alliances or group names defined as strings.
 - When the operation runs, it returns a logical vector of TRUE and FALSE values. These boolean results determine which rows of the data frame should be retained.
+- This method is much cleaner than chaining multiple OR statements together. It streamlines your code and makes it significantly easier for others to read.
 
 ## 🍦🍧🍪 Code 🍪🍧🍦
 - Grafiknya sama dengan subbab "Tren Jumlah Mahasiswa dari Tahun ke Tahun" tapi sudah dengan filter dua fakultas, yaitu "ICT" dan "Ilmu Komunikasi".
