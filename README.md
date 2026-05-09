@@ -6,6 +6,7 @@
 - You apply the logical results to the data frame index to create a subset. This process ensures that only the colleges belonging to your specified alliances remain.
 - The vector can be saved as a separate variable to make your filtering process more dynamic. This allows you to update the list of alliances without rewriting the main logic.
 - Strings within your vector must match the data frame entries exactly regarding capitalization. Even a small typo or case mismatch will result in that specific row being excluded.
+- Using specialized operators like %in% is generally faster than manual loops for large datasets. It leverages optimized internal functions to scan your data frame rapidly.
 
 ## 🍦🍧🍪 Code 🍪🍧🍦
 - Grafiknya sama dengan subbab "Tren Jumlah Mahasiswa dari Tahun ke Tahun" tapi sudah dengan filter dua fakultas, yaitu "ICT" dan "Ilmu Komunikasi".
