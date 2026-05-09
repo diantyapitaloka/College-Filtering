@@ -1,6 +1,6 @@
 ## 🍦🍧🍪 College-Filtering 🍪🍧🍦
 - Filtering in a data frame is efficiently handled by using the %in% operator for matching. This operator allows you to check if values in a column exist within a specific input vector.
-- 
+- The input vector serves as a collection of target values you wish to extract. It typically consists of several alliances or group names defined as strings.
 
 ## 🍦🍧🍪 Code 🍪🍧🍦
 - Grafiknya sama dengan subbab "Tren Jumlah Mahasiswa dari Tahun ke Tahun" tapi sudah dengan filter dua fakultas, yaitu "ICT" dan "Ilmu Komunikasi".
