@@ -10,6 +10,7 @@
 - Using specialized operators like %in% is generally faster than manual loops for large datasets. It leverages optimized internal functions to scan your data frame rapidly.
 - Negation with the Not-In Logic: You can exclude specific colleges by placing a negation symbol before the statement to filter out unwanted groups or blacklisted entries.
 - Handling Missing Values: The matching operator is robust with empty data points, returning a negative result rather than an error to keep your subset clean of unknown entries.
+- Combining Multiple Criteria: You can pair this method with other logical conditions to filter by both a group name and a secondary metric like enrollment size or tuition cost.
 
 ## 🍦🍧🍪 Code 🍪🍧🍦
 - Grafiknya sama dengan subbab "Tren Jumlah Mahasiswa dari Tahun ke Tahun" tapi sudah dengan filter dua fakultas, yaitu "ICT" dan "Ilmu Komunikasi".
