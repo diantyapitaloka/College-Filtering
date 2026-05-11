@@ -21,6 +21,7 @@
 - Handling Missing Values: It is critical to account for NA entries in your college name column before applying your match filters. Rows with missing data may return null results, potentially skewing your analysis if those institutions were meant to be counted.
 - Pattern Matching Integration: For institutions with multiple campuses, you can combine specific vector filtering with partial string matching tools. This allows you to capture every regional branch of a university system without listing each one individually in your vector.
 - Validation through Row Counts: Always compare the number of rows in your original data frame to your new subset after the filtering operation. This quick sanity check confirms that your criteria weren't so restrictive that they accidentally wiped out your entire dataset.
+- Cross-Reference Mapping: You can use filtering to create a bridge between two different datasets, such as linking enrollment numbers to financial aid records. By matching on a shared college ID or name vector, you ensure data integrity across your entire research project.
 
 ## 🍦🍧🍪 Code 🍪🍧🍦
 - Grafiknya sama dengan subbab "Tren Jumlah Mahasiswa dari Tahun ke Tahun" tapi sudah dengan filter dua fakultas, yaitu "ICT" dan "Ilmu Komunikasi".
