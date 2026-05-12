@@ -6,6 +6,7 @@
 - Naming your vector clearly helps document the specific purpose of the filter. It allows future users to understand exactly which group of colleges is being analyzed.
 - You apply the logical results to the data frame index to created a subset. This process ensures that only the colleges belonging to your specified alliances remain.
 - Dynamic Data Auditing: It is helpful to check the unique values in your column first to ensure your input list accounts for all possible variations of a college name.
+- Visualizing the Subset: Once the filtering is complete, immediately generating a quick frequency table helps confirm the distribution of your selected colleges. This step visually validates that your input vector successfully captured all intended targets.
 - Memory Efficiency: Creating a subsetted version of your data ensures the original master list remains untouched and available for different analyses later.
 - Functional Encapsulation: You can wrap your filtering logic into a custom function to reuse it across different projects. This ensures that every time you analyze a specific set of colleges, the parameters remain consistent.
 - Multi-Column Filtering: You can combine the alliance vector with additional criteria, such as minimum enrollment numbers or geographic region. Using multiple logical conditions allows you to drill down into very specific niches of higher education.
