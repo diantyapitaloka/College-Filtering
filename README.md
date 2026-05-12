@@ -9,6 +9,7 @@
 - Memory Efficiency: Creating a subsetted version of your data ensures the original master list remains untouched and available for different analyses later.
 - Functional Encapsulation: You can wrap your filtering logic into a custom function to reuse it across different projects. This ensures that every time you analyze a specific set of colleges, the parameters remain consistent.
 - Negation Logic: To exclude specific colleges instead of including them, you can place an exclamation point before the data frame name. This "not in" approach is perfect for filtering out rival schools or irrelevant institutions.
+- Partial Matching Alternatives: While %in% requires an exact match, you might occasionally need functions like grepl for partial string detection. This is useful when searching for schools that all contain the word "University" or "State."
 - Handling Null Values: Before applying the filter, it is wise to check for NA entries in your college name column. If the target column contains missing data, the %in% operator will return FALSE for those rows by default.
 - Case Sensitivity Workarounds: You can convert both your data and your search list to lowercase to ensure the filter works even if the capitalization of college names is inconsistent.
 - Scalability via External Files: For massive lists of schools, you can import your filter criteria from an external document to keep your main script organized and easy to manage.
