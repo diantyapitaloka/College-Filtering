@@ -7,6 +7,7 @@
 - You apply the logical results to the data frame index to created a subset. This process ensures that only the colleges belonging to your specified alliances remain.
 - Dynamic Data Auditing: It is helpful to check the unique values in your column first to ensure your input list accounts for all possible variations of a college name.
 - Memory Efficiency: Creating a subsetted version of your data ensures the original master list remains untouched and available for different analyses later.
+- Handling Null Values: Before applying the filter, it is wise to check for NA entries in your college name column. If the target column contains missing data, the %in% operator will return FALSE for those rows by default.
 - Case Sensitivity Workarounds: You can convert both your data and your search list to lowercase to ensure the filter works even if the capitalization of college names is inconsistent.
 - Scalability via External Files: For massive lists of schools, you can import your filter criteria from an external document to keep your main script organized and easy to manage.
 - The vector can be saved as a separate variable to make your filtering process more dynamic. This allows you to update the list of alliances without rewriting the main logic.
