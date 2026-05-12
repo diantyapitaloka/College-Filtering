@@ -8,6 +8,7 @@
 - Dynamic Data Auditing: It is helpful to check the unique values in your column first to ensure your input list accounts for all possible variations of a college name.
 - Memory Efficiency: Creating a subsetted version of your data ensures the original master list remains untouched and available for different analyses later.
 - Functional Encapsulation: You can wrap your filtering logic into a custom function to reuse it across different projects. This ensures that every time you analyze a specific set of colleges, the parameters remain consistent.
+- Multi-Column Filtering: You can combine the alliance vector with additional criteria, such as minimum enrollment numbers or geographic region. Using multiple logical conditions allows you to drill down into very specific niches of higher education.
 - Negation Logic: To exclude specific colleges instead of including them, you can place an exclamation point before the data frame name. This "not in" approach is perfect for filtering out rival schools or irrelevant institutions.
 - Data Validation Steps: It is a best practice to compare the row count before and after the filtering process. This allows you to verify that the operation actually removed data and didn't result in an empty data frame.
 - Partial Matching Alternatives: While %in% requires an exact match, you might occasionally need functions like grepl for partial string detection. This is useful when searching for schools that all contain the word "University" or "State."
