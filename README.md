@@ -7,6 +7,7 @@
 - You apply the logical results to the data frame index to created a subset. This process ensures that only the colleges belonging to your specified alliances remain.
 - Dynamic Data Auditing: It is helpful to check the unique values in your column first to ensure your input list accounts for all possible variations of a college name.
 - Memory Efficiency: Creating a subsetted version of your data ensures the original master list remains untouched and available for different analyses later.
+- Functional Encapsulation: You can wrap your filtering logic into a custom function to reuse it across different projects. This ensures that every time you analyze a specific set of colleges, the parameters remain consistent.
 - Negation Logic: To exclude specific colleges instead of including them, you can place an exclamation point before the data frame name. This "not in" approach is perfect for filtering out rival schools or irrelevant institutions.
 - Handling Null Values: Before applying the filter, it is wise to check for NA entries in your college name column. If the target column contains missing data, the %in% operator will return FALSE for those rows by default.
 - Case Sensitivity Workarounds: You can convert both your data and your search list to lowercase to ensure the filter works even if the capitalization of college names is inconsistent.
