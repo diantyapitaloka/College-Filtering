@@ -3,6 +3,7 @@
 - The input vector serves as a collection of target values you wish to extract. It typically consists of several alliances or group names defined as strings.
 - Regular Expression Matching: For columns with inconsistent naming conventions, pairing the filter with partial string matching can capture colleges that do not exactly match your vector. This approach ensures that slight variations, such as "Univ." versus "University," are not mistakenly excluded from your final cohort.
 - When the operation runs, it returns a logical vector of TRUE and FALSE values. These boolean results determine which rows of the data frame should be retained.
+- Temporal Filtering: Incorporating a time-based constraint allows you to isolate college alliance data from specific academic years or application cycles. This temporal dimension prevents older, irrelevant institutional data from skewing your current analysis.
 - This method is much cleaner than chaining multiple OR statements together. It streamlines your code and makes it significantly easier for others to read.
 - Naming your vector clearly helps document the specific purpose of the filter. It allows future users to understand exactly which group of colleges is being analyzed.
 - You apply the logical results to the data frame index to created a subset. This process ensures that only the colleges belonging to your specified alliances remain.
