@@ -1,5 +1,5 @@
 ## 🍦🍧🍪 College-Filtering 🍪🍧🍦
-- Filtering in a data frame is efficiently handled by using the %in% operator for matching. This operator allows you to check if values in a column exist within a specific input vector.
+- Filtering in a data frame is efficiently handled by using the %in% operator for matching. This operators allows you to check if values in a column exist within a specific input vector.
 - The input vector serves as a collection of target values you wish to extract. It typically consists of several alliances or group names defined as strings.
 - Regular Expression Matching: For columns with inconsistent naming conventions, pairing the filter with partial string matching can capture colleges that do not exactly match your vector. This approach ensures that slight variations, such as "Univ." versus "University," are not mistakenly excluded from your final cohort.
 - Join-Based Filtering: For incredibly large datasets, merging your master list with a separate reference table of target colleges can be significantly faster than using a vector match. This relational join approach naturally filters the data frame while simultaneously appending extra institutional metadata.
