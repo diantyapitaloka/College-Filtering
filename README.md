@@ -26,7 +26,7 @@
 - Handling Null Values: Before applying the filter, it is wise to check for NA entries in your college name column. If the target column contains missing data, the %in% operator will return FALSE for those rows by default.
 - Case Sensitivity Workarounds: You can convert both your data and your search list to lowercase to ensure the filter works even if the capitalization of college names is inconsistent.
 - Scalability via External Files: For massive lists of schools, you can import your filter criteria from an external document to keep your main script organized and easy to manage.
-- The vector can be saved as a separate variable to make your filtering process more dynamic. This allows you to update the list of alliances without rewriting the main logic.
+- The vector can be saved as a separate variable to make your filtering process more dynamic. Hence, this allows you to update the list of alliances without rewriting the main logic.
 - Strings within your vector must match the data frame entries exactly regarding capitalization. Even a small typo or case mismatch will result in that specific row being excluded.
 - Using specialized operators like %in% is generally faster than manual loops for large datasets. It leverages optimized internal functions to scan your data frame rapidly.
 - Interoperability with Pipelines: This filtering style fits perfectly within modern data workflows, allowing you to chain multiple transformation steps together seamlessly.
