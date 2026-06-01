@@ -14,7 +14,7 @@
 - You apply the logical results to the data frame index to created a subset. This process ensures that only the colleges belonging to your specified alliances remain.
 - Dynamic Data Auditing: It is helpful to check the unique values in your column first to ensure your input list accounts for all possible variations of a college name.
 - Visualizing the Subset: Once the filtering is complete, immediately generating a quick frequency table helps confirm the distribution of your selected colleges. This step visually validates that your input vector successfully captured all intended targets.
-- Exporting Results: Once you have isolated the specific college alliances, you can save that subset as a standalone CSV file. This provides a clean, portable dataset for colleagues who may not need access to the entire master list.
+- Exporting Results: Once you have isolated the specific college alliances, you can save all that subset as a standalone CSV file. This provides a clean, portable dataset for colleagues who may not need access to the entire master list.
 - Sorting for Clarity: After the filter is applied, sorting the resulting subset alphabetically by college name makes the data much easier to browse. Clean organization at this stage saves significant time during the final reporting phase.
 - Handling Missing Data: When filtering college alliances, it is crucial to account for missing values or NA entries within the designated column. Explicitly handling these blanks prevents the filter from accidentally dropping rows or throwing errors during the subsetting process.
 - Memory Efficiency: Creating a subsetted version of your data ensures the original master list remains untouched and available for different analyses later.
