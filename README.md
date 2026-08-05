@@ -41,7 +41,7 @@
 - Cross-Reference Mapping: You can use filtering to create a bridge between two different datasets, such as linking enrollment numbers to financial aid records. By matching on a shared college ID or name vector, you ensure data integrity across your entire research project.
 
 ## 🍦🍧🍪 Code 🍪🍧🍦
-- Grafiknya sama dengan subbab "Tren Jumlah Mahasiswa dari Tahun ke Tahun" tapi sudah dengan filter dua fakultas, yaitu "ICT" dan "Ilmu Komunikasi".
+- The graph is the same as the "Student Count Trends Over the Years" subsection, but filtered for two faculties: "ICT" and "Communication Sciences".
 - Hal ini dapat terjadi karena ada filtering yang dinyatakan oleh perintah berikut.
 - Di sini summarybyfakultas$fakultas %in%c("ICT", "Ilmu Komunikasi") artinya melakukan filter data yang ada di kolom fakultas dari data frame summarybyfakultas.
 - Sedangkan perintah lengkap summarybyfakultas[summarybyfakultas$fakultas %in%c("ICT", "Ilmu Komunikasi"),] artinya mengambil data yang sudah terfilter untuk seluruh kolom.
