@@ -42,7 +42,7 @@
 
 ## 🍦🍧🍪 Code 🍪🍧🍦
 - The graph is the same as the "Student Count Trends Over the Years" subsection, but filtered for two faculties: "ICT" and "Communication Sciences".
-- Hal ini dapat terjadi karena ada filtering yang dinyatakan oleh perintah berikut.
+- This occurs because of a filtering operation specified by the following command.
 - Di sini summarybyfakultas$fakultas %in%c("ICT", "Ilmu Komunikasi") artinya melakukan filter data yang ada di kolom fakultas dari data frame summarybyfakultas.
 - Sedangkan perintah lengkap summarybyfakultas[summarybyfakultas$fakultas %in%c("ICT", "Ilmu Komunikasi"),] artinya mengambil data yang sudah terfilter untuk seluruh kolom.
 
